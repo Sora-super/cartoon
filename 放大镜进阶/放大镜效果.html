@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(function(){
+			var $sImg = $("#smallImg");
+			var $sc = $("#smallCursor");
+			var $bImg = $("#bigImg");
+			var $bc = $("#bigCursor");
+			//小放大镜的宽度/小图的宽度 === 大放大镜的宽度/大图的宽度
+			var _width = $bc.width()*$sImg.width()/$bImg.width();
+			var scale = $bImg.width()/$sImg.width();
+			$sImg.hover(
+				function(){
+					$sc.width(_width).height(_width).show();
+				},
+				function(){
+					$sc.hide();
+				}
+			)
+			$sImg.mousemove(function(evt){
+				//计算鼠标在小图中的坐标
+				var mousex = evt.pageX - $(this).offset().left;
+				var mousey = evt.pageY - $(this).offset().top;
+				//让小放大镜跟随鼠标移动
+				$sc.css({
+					left: Math.min($sImg.width()-_width, Math.max(0,mousex-_width/2)), 
+					top: Math.min($sImg.height()-_width, Math.max(0,mousey-_width/2))
+				});
+				//大图片移动
+				console.log($sc.position().left*scale)
+				$bImg.css({
+					left: -$sc.position().left*scale,
+					top: -$sc.position().top*scale
+				})
+			});
+		});
+	</script> 
+	<body>
+		<div id="smallImg" style="position: absolute; background:url(img/星际穿越.jpg) center; background-size: cover; top: 100px; left:100px; width:200px; height:200px;">
+			<div id="smallCursor" style="position: absolute; left: 0; top: 0; display:none; width: 40px; height: 40px; background: rgba(200,198,255,0.8);"></div>
+		</div>
+		<div id="bigCursor" style="position: absolute; height:300px; width:300px; left: 350px; top: 10px; background: rgba(200,198,255,0.1); overflow: hidden;">
+			<img id="bigImg" style="position: absolute; left: 0px; top: 0px;" src="img/星际穿越.jpg"/>
+		</div>
+	</body>
+
+</html>
