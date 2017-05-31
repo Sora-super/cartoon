@@ -1,0 +1,154 @@
+.goods_head {
+  width: 980px;
+  height: 36px;
+  margin: 20px auto;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 2px solid #28abe4;
+}
+.goods_head span {
+  font-size: 12px;
+  float: left;
+}
+.goods_head p {
+  font-size: 12px;
+  color: #28abe4;
+  float: left;
+  padding-left: 20px;
+}
+
+.goods_all {
+  width: 980px;
+  height: 429px;
+  margin: 20px auto;
+  position: relative;
+}
+.goods_all .goods_left1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+}
+.goods_all .goods_left1 ul li {
+  margin-bottom: 10px;
+  width: 72px;
+  height: 72px;
+  border: 1px solid lightgrey;
+}
+.goods_all .goods_left1 ul li img {
+  width: 72px;
+  height: 72px;
+}
+.goods_all .goods_left1 ul li:hover {
+  border: 1px solid #28abe4;
+}
+.goods_all .samll_pic {
+  width: 340px;
+  height: 340px;
+  top: 0;
+  left: 82px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.goods_all .samll_pic .small_cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 170px;
+  background: white;
+  opacity: 0.5;
+  display: none;
+  z-index: 200;
+  border: 1px dashed lightgrey;
+}
+.goods_all .samll_pic .samll_ul {
+  width: 340px;
+  height: 1700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.goods_all .samll_pic .samll_ul img {
+  width: 340px;
+  height: 340px;
+}
+.goods_all .big_cursor {
+  width: 400px;
+  height: 400px;
+  top: 0px;
+  left: 100px;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+.goods_all .big_cursor .big_ul {
+  width: 800px;
+  height: 4000px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.goods_all .big_cursor .big_ul img {
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+}
+.goods_all .shopcar {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+.goods_all .shopcar p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: arial,\5b8b\4f53;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px dashed grey;
+}
+.goods_all .shopcar .price_font0 {
+  padding: 20px 0;
+}
+.goods_all .shopcar .price_font0 span {
+  font-size: 14px;
+  padding-right: 40px;
+}
+.goods_all .shopcar .price_font0 b {
+  font-size: 16px;
+  color: #ff8989;
+  font-weight: bold;
+}
+.goods_all .shopcar .btn_minus {
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border: 1px solid lightgrey;
+}
+.goods_all .shopcar .put_in {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.goods_all .shopcar .btn_add {
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border: 1px solid lightgrey;
+}
+.goods_all .shopcar .buy_font {
+  font-size: 16px;
+}
+.goods_all .shopcar .submit {
+  width: 100px;
+  height: 50px;
+}

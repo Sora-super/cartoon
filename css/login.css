@@ -1,0 +1,67 @@
+.login_in {
+  width: 980px;
+  height: 400px;
+  margin: 35px auto;
+  border: 1px solid #28abe4;
+  text-align: center;
+}
+.login_in .in_code {
+  width: 100px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+}
+.login_in .code {
+  width: 100px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.login_in .btn {
+  border: none;
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid grey;
+  margin-top: 50px;
+  background: #28abe4;
+  color: white;
+}
+.login_in .login_usernames, .login_in .login_passwords {
+  border: none;
+  border: 1px solid grey;
+  height: 26px;
+  width: 200px;
+  line-height: 26px;
+  margin: 10px auto;
+}
+.login_in span {
+  font-size: 14px;
+}
+.login_in .login_left {
+  width: 490px;
+  height: 400px;
+  float: left;
+}
+.login_in .login_left .login_pic {
+  width: 443px;
+  height: 40px;
+  background: url(../imgs/reg-bg.png) no-repeat -161px -153px;
+  margin: 20px auto;
+}
+.login_in .regist_right {
+  width: 490px;
+  height: 400px;
+  float: right;
+}
+.login_in .regist_right .regist_pic2 {
+  width: 443px;
+  height: 40px;
+  margin: 20px auto;
+  background: url(../imgs/reg-bg.png) no-repeat -160px -196px;
+}

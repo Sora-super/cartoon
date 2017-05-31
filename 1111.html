@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script type="text/javascript">
+				var req = new XMLHttpRequest();
+					req.open("get","mock/lis.json",true);
+					req.onreadystatechange = function(){
+						if(req.readyState == 4) {
+							var list= JSON.parse(req.responseText)[0].img1
+							console.log(list instanceof Array)
+							for(var x=0;x<list.length;x++){
+									var img = document.createElement("img")
+									img.src = list[x];
+									document.body.appendChild(img)
+							}
+						
+						}
+					}
+					req.send();
+	</script>
+</html>

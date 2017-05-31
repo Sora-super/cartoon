@@ -1,0 +1,112 @@
+.regieter {
+  width: 980px;
+  height: 635px;
+  margin: 10px auto;
+  border: 1px solid #28abe4;
+}
+.regieter .reg_head {
+  width: 620px;
+  height: 41px;
+  background: url(../imgs/reg-bg.png) no-repeat -161px -69px;
+  margin: 50px auto;
+}
+.regieter .username {
+  width: 266px;
+  height: 24px;
+  margin: 25px auto;
+  line-height: 24px;
+}
+.regieter .username p {
+  font-size: 12px;
+  float: left;
+}
+.regieter .username .in_username {
+  width: 206px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+  float: right;
+}
+.regieter .password {
+  width: 270px;
+  height: 24px;
+  margin: 30px auto;
+  line-height: 24px;
+}
+.regieter .password p {
+  font-size: 12px;
+  float: left;
+}
+.regieter .password .in_password {
+  width: 206px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+  float: right;
+}
+.regieter .re_password {
+  width: 270px;
+  height: 24px;
+  margin: 30px auto;
+  line-height: 24px;
+}
+.regieter .re_password p {
+  font-size: 12px;
+  float: left;
+}
+.regieter .re_password .re_in_password {
+  width: 206px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+  float: right;
+}
+.regieter .test_code {
+  width: 266px;
+  height: 24px;
+  margin: 30px auto;
+  line-height: 24px;
+}
+.regieter .test_code p {
+  font-size: 12px;
+  float: left;
+}
+.regieter .test_code .in_code {
+  width: 102px;
+  height: 22px;
+  float: left;
+  border: none;
+  border: 1px solid #7f9db9;
+}
+.regieter .test_code .code {
+  float: right;
+  width: 102px;
+  height: 22px;
+  border: none;
+  border: 1px solid #7f9db9;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.regieter .btn {
+  width: 100px;
+  height: 28px;
+  margin-left: 450px;
+  background: #28abe4;
+  color: white;
+  line-height: 28px;
+  text-align: center;
+  padding: 1px;
+  border: none;
+  border: 1px solid #28abe4;
+}
+.regieter .link_login {
+  width: 300px;
+  height: 55px;
+  margin: 50px auto;
+  font-size: 12px;
+}
+.regieter .link_login a {
+  color: #28abe4;
+}

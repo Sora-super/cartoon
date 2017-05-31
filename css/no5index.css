@@ -1,0 +1,39 @@
+*{margin:0;padding:0;}
+ul,li{list-style:none;}
+img{ border="0"}
+a{text-decoration:none;color:grey; font-family: simsun,arial,Arial Narrow,serif;}
+body,html{width:100%;height:100%}
+
+/*----------------------------------------轮播图1------------------------------------------------*/
+.slide_left{display:block;}
+.box_re{width:100%;height:400px;overflow:hidden;}
+.pos{width:1200px;height:400px;margin:0 auto;position:relative;}
+.return_photo{width:765px;height:400px;position:absolute;left:230px;top:0;overflow:hidden;position:relative;}
+.carousel_1{width:4590px;height:400px;position:absolute;float:left;}
+.carousel_1 li{float:left;width:765px;}
+.num{width:180px;height:22px;position:absolute;bottom:6px;left:8px;}
+.num li{float:left;width:22px;height:22px;line-height:22px;font-size:12px;border-radius:50%;margin:0 8px 0 5px;background:white;text-align:center;}
+.num li>a{color:grey;}
+.num .on{background:#03adeb;}
+.carouse_r1{width:190px;height:390px;position:absolute;top:5px;right:0;overflow:hidden;}
+.carouse_boxr1,.carouse_boxr2,.carouse_boxr3{width:190px;height:130px;overflow:hidden;}
+.box_r1,.box_r2,.box_r3{width:950px;height:130px;overflow:hidden;position:absolute;}
+.box_r1>li{float:left;}
+.box_r2>li{float:left;}
+.box_r3>li{float:left;}
+/*----------------------------------------head4------------------------------------------------*/
+.head4{width:1200px;height:50px;margin:20px auto;border-bottom:2px solid #ff8c8f; position:relative;}
+.head4 h2{position:absolute;left:0;bottom:2px;}
+.box4{width:1200px;height:440px;margin:0 auto;}
+.box4 ul li img{width:260px;height:260px;}
+.box4 ul li{float:left;border:1px solid lightslategrey;margin-right:34px;width:270px;height:404px;text-align:center;position:relative;}
+.d_clock{width:270px;height:38px;background:#f8f7f5;line-height:38px;vertical-align:middle;}
+.clock{display:inline-block;vertical-align:middle;width:27px;height:27px;float:left;background:url(../imgs/clock.jpg) no-repeat;margin-left:30px;margin-top:5px;}
+.pic4 li p{font-size:12px;}
+.d_clock span{display:inline-block;vertical-align:middle;}
+.son_price{position:absolute;left:-5px;bottom:-12px;width:280px;height:65px;background:url(../imgs/i_03.jpg) no-repeat;vertical-align:middle;line-height:65px;}
+.son_price b{color:white;text-align:left;font-family: Arial;display:inline-block;float:left;padding-left:5px;}
+ .son_price .font{color:white;font-size:44px;font-weight:bold;text-align:left;font-family: Arial;display:inline-block;float:left;}
+.timer>span{color:red;font-size:14px;font-weight:bold;}
+ .left_no1 {font-family: arial,\5b8b\4f53;font-weight:bold;padding:0 8px;}
+ 

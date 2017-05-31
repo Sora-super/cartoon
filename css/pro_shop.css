@@ -1,0 +1,75 @@
+.choose_good {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.choose_good .choose_left {
+  width: 230px;
+  margin-top: 20px;
+}
+.choose_good .choose_left p {
+  font-size: 12px;
+  margin-left: 30px;
+}
+.choose_good .choose_left ul {
+  margin-top: 50px;
+}
+.choose_good .choose_left ul li {
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-bottom: 1px dashed lightgrey;
+}
+.choose_good .choose_left ul .li_color {
+  height: 28px;
+  background: #ff8989;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+}
+.choose_good .choose_left ul .li_color a {
+  color: white;
+}
+.choose_good .shop_pic {
+  width: 960px;
+  position: absolute;
+  top: 0;
+  left: 230px;
+}
+.choose_good .shop_pic dl {
+  width: 230px;
+  height: 303px;
+  margin: 5px 5px;
+}
+.choose_good .shop_pic dd {
+  font-size: 12px;
+  font-family: arial,\5b8b\4f53;
+  color: #666;
+  margin-bottom: 10px;
+}
+.choose_good .shop_pic dd span {
+  color: #f5205a;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.choose_good .shop_pic dd b {
+  font-size: 12px;
+  color: #f5205a;
+}
+.choose_good .shop_pic button {
+  width: 100px;
+  height: 28px;
+  line-height: 28px;
+  background: #f5205a;
+  text-align: center;
+  border: none;
+  border-radius: 10%;
+  margin-left: 30px;
+}
+
+#shop_pho li {
+  float: left;
+}
